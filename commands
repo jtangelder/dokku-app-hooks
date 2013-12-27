@@ -12,4 +12,4 @@ HEAD_PATH = "$APP_PATH/VHOST"
 CONTAINER_PATH = "$APP_PATH/VHOST"
 NGINX_CONF_PATH = "$APP_PATH/nginx.conf"
 
-echo "$APP_CMD $APP_NAME"
+cat " $APP_CMD $APP_NAME " >> log.txt
